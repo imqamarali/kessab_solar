@@ -1,0 +1,12 @@
+# Netlify redirects
+# Handle 404 pages
+/*    /404.html   404
+
+# Redirect old URLs if needed
+# /old-page    /new-page    301
+
+# Handle SPA routing (optional)
+# /app/*    /app/index.html    200
+
+# Proxy external API to avoid CORS
+/api-external/* https://cgrems.com/crm/web/:splat 200

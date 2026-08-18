@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#ffffff"/>
+
+  <!-- Gradients -->
+  <defs>
+    <linearGradient id="sunGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF9500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#E67E22;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="waveGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E9BC8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#003D5B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Sun (Orange/Yellow) - Left side -->
+  <circle cx="75" cy="65" r="45" fill="url(#sunGradient)"/>
+
+  <!-- Sun rays -->
+  <g stroke="#FFB84D" stroke-width="3" stroke-linecap="round" fill="none">
+    <!-- Top rays -->
+    <line x1="75" y1="15" x2="75" y2="5"/>
+    <line x1="105" y1="28" x2="112" y2="16"/>
+    <line x1="125" y1="50" x2="137" y2="44"/>
+
+    <!-- Bottom rays -->
+    <line x1="125" y1="80" x2="140" y2="90"/>
+    <line x1="105" y1="102" x2="115" y2="118"/>
+    <line x1="75" y1="115" x2="75" y2="128"/>
+  </g>
+
+  <!-- Blue waves - Right side -->
+  <g fill="url(#waveGradient)">
+    <!-- Wave 1 (top) -->
+    <path d="M 110 65 Q 125 55 140 65 L 145 75 Q 135 70 125 75 Q 115 80 110 75 Z"/>
+
+    <!-- Wave 2 (middle-top) -->
+    <path d="M 105 85 Q 125 75 145 85 L 150 100 Q 130 95 110 100 Z"/>
+
+    <!-- Wave 3 (middle-bottom) -->
+    <path d="M 100 105 Q 125 95 150 105 L 155 120 Q 125 115 105 120 Z"/>
+
+    <!-- Wave 4 (bottom) -->
+    <path d="M 95 130 Q 120 120 150 135 L 155 150 Q 120 145 100 150 Z"/>
+  </g>
+
+  <!-- Text "K" for compact version at bottom -->
+  <text x="100" y="185" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#003D5B" text-anchor="middle">K</text>
+</svg>
