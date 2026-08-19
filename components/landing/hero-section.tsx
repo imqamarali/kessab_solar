@@ -30,22 +30,18 @@ export default function HeroSection() {
             <div className="space-y-4">
               <Badge className="bg-gradient-to-r from-green-900 to-emerald-900 text-slate-200 hover:from-green-200 hover:to-emerald-800 border-0 px-4 py-2 font-medium">
                 <Award className="w-4 h-4 mr-2" />
-                Clean Energy Solutions
+                Trusted Energy Solutions Since 2014
               </Badge>
               <h1 className="text-4xl lg:text-5xl font-bold leading-tight tracking-tight">
-                Enterprise Solar Solutions &
                 <span className="bg-gradient-to-r from-green-400 via-emerald-500 to-teal-300 bg-clip-text text-transparent">
-                  {" "}
-                  Smart Energy Technology
+                  Powering a Sustainable Future
                 </span>
               </h1>
               <p className="text-lg text-slate-400 leading-relaxed max-w-2xl">
-                A technology-driven company delivering scalable solar energy
-                solutions for residential and commercial applications.
-                Transforming the way you power your world.
+                Backed by the trusted reputation of KESSAB Group — a leading MEP company serving Qatar since 2014 — we provide advanced and reliable solar energy solutions for residential, commercial, and industrial projects.
               </p>
-              <p className="text- text-green-400 leading-relaxed max-w-2xl">
-                From design to delivery - comprehensive solar energy solutions
+              <p className="text-green-400 leading-relaxed max-w-2xl font-semibold">
+                Smart • Sustainable • Reliable Solar Solutions
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-4">

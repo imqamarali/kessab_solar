@@ -13,29 +13,20 @@ export default function AboutSection() {
           </Badge>
           <h2 className="text-3xl font-bold mb-2">About KESSAB Solar</h2>
           <p className="text-sm text-muted-foreground max-w-2xl mx-auto">
-            Leading solar energy innovation with integrity, sustainability, and
-            commitment to clean energy solutions
+            Backed by KESSAB Group — a leading MEP company serving Qatar since 2014
           </p>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-4">
             <p className="text text-muted-foreground leading-relaxed">
-              At KESSAB Solar, we are a technology-driven company dedicated to
-              delivering clean, efficient, and affordable solar energy solutions.
-              With expertise in both residential and commercial applications, we
-              combine innovation with practical know-how to transform energy solutions.
+              KESSAB Solar is backed by the trusted reputation of KESSAB Group, a leading MEP (Mechanical, Electrical, and Plumbing) company that has been serving Qatar since 2014. We provide advanced and reliable solar energy solutions for residential, commercial, and industrial projects.
             </p>
             <p className="text text-muted-foreground leading-relaxed">
-              What sets KESSAB apart is our comprehensive approach: we handle
-              everything from initial design consultation through installation,
-              testing, commissioning, and ongoing maintenance. Our commitment
-              to sustainability and environmental responsibility drives every project.
+              We are committed to delivering high-quality engineering, professional installation, and efficient energy solutions that help reduce electricity costs and support a cleaner future. Our comprehensive approach covers everything from design and consultation to installation, testing, commissioning, and ongoing maintenance.
             </p>
             <p className="text text-muted-foreground leading-relaxed">
-              Whether you need a solar system for your home, business, or specialized
-              application, KESSAB is your trusted partner in achieving energy
-              independence through renewable solar technology.
+              With our expertise in multiple solar technologies and applications, KESSAB Solar is your trusted partner for achieving energy independence and sustainability through reliable renewable solar energy solutions.
             </p>
             <div className="grid sm:grid-cols-2 gap-y-4 gap-x-10 max-w-max mx-auto pt-6">
               {features.map((feature, index) => (
@@ -71,10 +62,31 @@ export default function AboutSection() {
 
         <div className="mt-20 max-w-4xl mx-auto">
           <div className="text-center mb-12">
-            <h3 className="text-2xl font-bold mb-3">KESSAB Solar Journey</h3>
+            <h3 className="text-2xl font-bold mb-3">Our Mission, Vision & Strategy</h3>
             <p className="text-sm text-muted-foreground">
               Our commitment to sustainable energy growth
             </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <div className="bg-gradient-to-br from-green-500/10 to-emerald-500/10 border border-green-500/20 rounded-lg p-6">
+              <h4 className="text-lg font-bold text-green-600 dark:text-green-400 mb-3">MISSION</h4>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Deliver affordable solar technology that reduces environmental impact and drives energy independence.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-blue-500/10 to-cyan-500/10 border border-blue-500/20 rounded-lg p-6">
+              <h4 className="text-lg font-bold text-blue-600 dark:text-blue-400 mb-3">VISION</h4>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                To make clean energy accessible to every home and business.
+              </p>
+            </div>
+            <div className="bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border border-emerald-500/20 rounded-lg p-6">
+              <h4 className="text-lg font-bold text-emerald-600 dark:text-emerald-400 mb-3">STRATEGY</h4>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Offering differentiated products and services to maintain a unique position in the marketplace through delivering sustainable solutions.
+              </p>
+            </div>
           </div>
 
           <div className="relative">

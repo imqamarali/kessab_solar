@@ -167,7 +167,7 @@ export default function Footer() {
             <p className="text-slate-300 font-semibold mb-4">Follow Our Solar Energy Journey</p>
             <div className="flex justify-center gap-6">
               <Link
-                href="https://www.facebook.com/profile.php?id=61572577337733"
+                href="https://www.facebook.com/people/Kessab-solar-energy/61572577337733/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-400 hover:text-blue-400 transition-colors"

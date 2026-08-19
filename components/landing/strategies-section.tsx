@@ -15,6 +15,7 @@ import {
   Gauge,
   Target,
   Activity,
+  ArrowRight,
 } from "lucide-react";
 
 export default function StrategiesSection() {
@@ -72,8 +73,87 @@ export default function StrategiesSection() {
           ))}
         </div>
 
+        {/* Process Pipeline Visualization */}
+        <div className="my-16 relative">
+          <h3 className="text-2xl font-bold mb-8 text-center">Our Service Pipeline</h3>
+
+          {/* Horizontal Process Flow */}
+          <div className="overflow-x-auto pb-6">
+            <div className="flex items-center justify-center gap-2 min-w-max px-4">
+              {/* Stage 1 */}
+              <div className="flex items-center gap-2">
+                <div className="w-24 h-24 bg-gradient-to-br from-green-500 to-emerald-600 rounded-lg flex flex-col items-center justify-center text-white shadow-lg">
+                  <div className="text-2xl font-bold">1</div>
+                  <div className="text-xs font-semibold text-center px-1">Design</div>
+                </div>
+                <div className="hidden md:block w-8 h-1 bg-gradient-to-r from-green-500 to-emerald-500"></div>
+              </div>
+
+              {/* Stage 2 */}
+              <div className="flex items-center gap-2">
+                <div className="w-24 h-24 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-lg flex flex-col items-center justify-center text-white shadow-lg">
+                  <div className="text-2xl font-bold">2</div>
+                  <div className="text-xs font-semibold text-center px-1">Supply</div>
+                </div>
+                <div className="hidden md:block w-8 h-1 bg-gradient-to-r from-emerald-500 to-teal-500"></div>
+              </div>
+
+              {/* Stage 3 */}
+              <div className="flex items-center gap-2">
+                <div className="w-24 h-24 bg-gradient-to-br from-blue-600 to-indigo-700 rounded-lg flex flex-col items-center justify-center text-white shadow-lg">
+                  <div className="text-2xl font-bold">3</div>
+                  <div className="text-xs font-semibold text-center px-1">Installation</div>
+                </div>
+                <div className="hidden md:block w-8 h-1 bg-gradient-to-r from-blue-600 to-cyan-500"></div>
+              </div>
+
+              {/* Stage 4 */}
+              <div className="flex items-center gap-2">
+                <div className="w-24 h-24 bg-gradient-to-br from-cyan-500 to-teal-600 rounded-lg flex flex-col items-center justify-center text-white shadow-lg">
+                  <div className="text-2xl font-bold">4</div>
+                  <div className="text-xs font-semibold text-center px-1">Testing &<br/>Comm.</div>
+                </div>
+                <div className="hidden md:block w-8 h-1 bg-gradient-to-r from-cyan-500 to-green-500"></div>
+              </div>
+
+              {/* Stage 5 */}
+              <div className="w-24 h-24 bg-gradient-to-br from-lime-500 to-green-600 rounded-lg flex flex-col items-center justify-center text-white shadow-lg">
+                <div className="text-2xl font-bold">5</div>
+                <div className="text-xs font-semibold text-center px-1">Maintenance</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Three Capabilities Cards */}
+        <div className="grid md:grid-cols-3 gap-6 mb-16 relative">
+          <div className="bg-gradient-to-br from-blue-500/10 to-cyan-500/10 border border-blue-500/30 rounded-lg p-6 hover:shadow-lg transition-all">
+            <div className="w-14 h-14 bg-gradient-to-br from-blue-500 to-cyan-600 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+              <Zap className="w-7 h-7 text-white" />
+            </div>
+            <h4 className="text-lg font-bold mb-2">Quality Installation</h4>
+            <p className="text-sm text-muted-foreground">Professional installation with quality assurance and comprehensive testing procedures.</p>
+          </div>
+
+          <div className="bg-gradient-to-br from-green-500/10 to-emerald-500/10 border border-green-500/30 rounded-lg p-6 hover:shadow-lg transition-all">
+            <div className="w-14 h-14 bg-gradient-to-br from-green-500 to-emerald-600 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+              <BarChart3 className="w-7 h-7 text-white" />
+            </div>
+            <h4 className="text-lg font-bold mb-2">Expert Consultation</h4>
+            <p className="text-sm text-muted-foreground">Personalized solar system design based on your specific energy requirements and goals.</p>
+          </div>
+
+          <div className="bg-gradient-to-br from-purple-500/10 to-indigo-500/10 border border-purple-500/30 rounded-lg p-6 hover:shadow-lg transition-all">
+            <div className="w-14 h-14 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-xl flex items-center justify-center mb-4 shadow-lg">
+              <Target className="w-7 h-7 text-white" />
+            </div>
+            <h4 className="text-lg font-bold mb-2">Custom Solar Solutions</h4>
+            <p className="text-sm text-muted-foreground">Tailored solar solutions designed specifically for your unique residential or commercial needs.</p>
+          </div>
+        </div>
+
         {/* Core Services */}
-        <div className="backdrop-blur rounded-2xl p-10 relative">
+        <div className="backdrop-blur rounded-2xl p-10 relative mt-16">
           <div className="absolute inset-0 bg-gradient-to-br from-green-500/10 via-green-500/20 to-green-500/5 blur-3xl opacity-40"></div>
           <h3 className="text-3xl font-bold mb-10 text-green-600 dark:text-green-400 relative">
             Core Solar Services

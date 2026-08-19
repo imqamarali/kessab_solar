@@ -10,6 +10,8 @@ import {
   TeamSection,
   WhyChooseUsSection
 } from "@/components/landing";
+import ValuesSection from "@/components/landing/values-section";
+import HowSolarWorksSection from "@/components/landing/how-solar-works-section";
 
 export default function KessabSolarLanding() {
   return (
@@ -19,6 +21,8 @@ export default function KessabSolarLanding() {
       <AboutSection />
       <WhyChooseUsSection />
       <StrategiesSection />
+      <HowSolarWorksSection />
+      <ValuesSection />
       <ServicesSection />
       <PartnershipsSection />
       <TeamSection />

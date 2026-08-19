@@ -61,9 +61,9 @@ export default function ContactSection() {
               <div className="flex items-center justify-center gap-2">
                 <Phone className="w-5 h-5 text-green-400" />
               </div>
-              <p className="text-sm text-slate-300">Call Us</p>
-              <Link href="tel:+97444178557" className="text-green-400 hover:text-green-300 font-semibold">
-                +974 4417 8557
+              <p className="text-sm text-slate-300">WhatsApp / Call</p>
+              <Link href="tel:+97433680965" className="text-green-400 hover:text-green-300 font-semibold">
+                +974 3368 0965
               </Link>
             </div>
             <div className="space-y-2">
@@ -71,9 +71,14 @@ export default function ContactSection() {
                 <Mail className="w-5 h-5 text-green-400" />
               </div>
               <p className="text-sm text-slate-300">Email Us</p>
-              <Link href="mailto:info@kessabsolar.com" className="text-green-400 hover:text-green-300 font-semibold text-sm">
-                info@kessabsolar.com
-              </Link>
+              <div className="space-y-1">
+                <Link href="mailto:info@kessabsolar.com" className="text-green-400 hover:text-green-300 font-semibold text-sm block">
+                  info@kessabsolar.com
+                </Link>
+                <Link href="mailto:info@kessab-qatar.com" className="text-green-400 hover:text-green-300 font-semibold text-sm block">
+                  info@kessab-qatar.com
+                </Link>
+              </div>
             </div>
             <div className="space-y-2">
               <div className="flex items-center justify-center gap-2">
